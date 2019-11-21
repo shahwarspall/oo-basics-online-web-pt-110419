@@ -1,9 +1,10 @@
 class Book 
 
-attr_accessor :tile
+attr_accessor :title 
 
 
-def initialize 
+def initialize(title)
+  @title = title
   
 end 
 
